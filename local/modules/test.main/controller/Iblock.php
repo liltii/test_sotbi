@@ -40,7 +40,7 @@ class Iblock extends Controller
     }
 
     /**
-     * Создание свойств для ИБ
+     * Создание элемента для ИБ
      * @return bool
      * @throws \Exception
      */

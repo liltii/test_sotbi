@@ -52,6 +52,12 @@ class Iblock
         return true;
     }
 
+    /**
+     * Создание элемента для ИБ
+     * @param array $params
+     * @return bool
+     * @throws \Exception
+     */
     public function addElement(array $params): bool
     {
         $el = new \CIBlockElement;
