@@ -12,16 +12,16 @@
 
 Запрос: localhost:80/api/iblock/create/
 
-Обязательные параметры:
+Обязательные параметры:  
 NAME - string
-CODE - string
-IBLOCK_TYPE_ID - string
+CODE - string  
+IBLOCK_TYPE_ID - string  
 
-Пример:
-{
-"NAME": "Офисы",
-"CODE": "office",
-"IBLOCK_TYPE_ID": "rest_entity"
+Пример:  
+{  
+"NAME": "Офисы",    
+"CODE": "office",  
+"IBLOCK_TYPE_ID": "rest_entity"  
 }
 
 #### Cоздание Элементов в ИнфоБлоке
@@ -30,22 +30,22 @@ IBLOCK_TYPE_ID - string
 
 Запрос: localhost:80/api/iblock/addElement/
 
-Обязательные параметры:
-NAME - string
-IBLOCK_ID - integer
+Обязательные параметры:  
+NAME - string  
+IBLOCK_ID - integer  
 
-Св-ва:
-COORDINATES (Координаты | Текстовое поле) - string
-PHONE (Телефон | Текстовое поле) - string
-EMAIL (Email | Текстовое поле) - string
-CITY (Город | Привязка к элементу) - int
+Св-ва:  
+COORDINATES (Координаты | Текстовое поле) - string  
+PHONE (Телефон | Текстовое поле) - string  
+EMAIL (Email | Текстовое поле) - string  
+CITY (Город | Привязка к элементу) - int  
 
-Пример:
-{
-"NAME": "офис 1",
-"IBLOCK_ID": 10,
-"COORDINATES": "55.772644,37.613213",
-"PHONE": "+7 999 111-22-33",
-"EMAIL": "test@mail.ru",
-"CITY": 33
+Пример:  
+{  
+"NAME": "офис 1",  
+"IBLOCK_ID": 10,  
+"COORDINATES": "55.772644,37.613213",  
+"PHONE": "+7 999 111-22-33",  
+"EMAIL": "test@mail.ru",  
+"CITY": 33  
 }
